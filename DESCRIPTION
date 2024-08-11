@@ -1,0 +1,18 @@
+Package: log4hamr
+Type: Package
+Title: Amateur radio hamlog
+Version: 0.1.0
+Author: i2z1
+Maintainer: i2z1 <i2z1@ddslab.ru>
+Description: Hamlog shiny app
+    Supports ham log itself, frequency base, APRS map, import/export (ADIF, ERMAK)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    bslib,
+    htmltools,
+    shiny
+Suggests: 
+    pkgload
+RoxygenNote: 7.3.2
